@@ -1,4 +1,4 @@
 library(testthat)
-library(hrbrmisc)
+library(kylerove-r-theme)
 
-test_check("hrbrmisc")
+test_check("kylerove-r-theme")
