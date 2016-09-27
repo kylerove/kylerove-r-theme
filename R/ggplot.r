@@ -26,7 +26,7 @@
 #' @param axis axis \code{TRUE}, \code{FALSE}, [\code{xy}]
 #' @param ticks ticks
 #' @export
-theme_hrbrmstr <- function(base_family="Cabin-Regular",
+theme_kylerove <- function(base_family="Cabin-Regular",
                            base_size = 11,
                            strip_text_family = base_family,
                            strip_text_size = 12,
@@ -123,8 +123,8 @@ theme_hrbrmstr <- function(base_family="Cabin-Regular",
 #' Open Sans Condensed theme
 #'
 #' @export
-theme_hrbrmstr_os <- function(...) {
-  theme_hrbrmstr(base_family="OpenSans-CondensedLight",
+theme_kylerove_os <- function(...) {
+  theme_kylerove(base_family="OpenSans-CondensedLight",
                  plot_title_family="OpenSans-CondensedBold",
                  subtitle_family="OpenSans-CondensedLightItalic",
                  caption_family="OpenSans-CondensedLight",
@@ -134,8 +134,8 @@ theme_hrbrmstr_os <- function(...) {
 #' Arial Narrow theme
 #'
 #' @export
-theme_hrbrmstr_ar <- function(...) {
-  theme_hrbrmstr(base_family="ArialNarrow",
+theme_kylerove_ar <- function(...) {
+  theme_kylerove(base_family="ArialNarrow",
                  plot_title_family="ArialNarrow-Bold",
                  subtitle_family="ArialNarrow-Italic",
                  caption_family="ArialNarrow",
@@ -145,8 +145,8 @@ theme_hrbrmstr_ar <- function(...) {
 #' Myriad Pro theme
 #'
 #' @export
-theme_hrbrmstr_my <- function(...) {
-  theme_hrbrmstr(base_family="MyriadPro-Cond",
+theme_kylerove_my <- function(...) {
+  theme_kylerove(base_family="MyriadPro-Cond",
                  plot_title_family="MyriadPro-BoldCond",
                  subtitle_family="MyriadPro-CondIt",
                  caption_family="MyriadPro-Cond",
@@ -156,8 +156,8 @@ theme_hrbrmstr_my <- function(...) {
 #' Hind theme
 #'
 #' @export
-theme_hrbrmstr_hind <- function(...) {
-  theme_hrbrmstr(base_family="Hind",
+theme_kylerove_hind <- function(...) {
+  theme_kylerove(base_family="Hind",
                  plot_title_family="Hind-Bold",
                  subtitle_family="Hind-SemiBold",
                  caption_family="Hind-Light",
@@ -167,8 +167,8 @@ theme_hrbrmstr_hind <- function(...) {
 #' Arial Narrow theme
 #'
 #' @export
-theme_hrbrmstr_an <- function(...) {
-  theme_hrbrmstr(base_family="ArialNarrow",
+theme_kylerove_an <- function(...) {
+  theme_kylerove(base_family="ArialNarrow",
                  plot_title_family="ArialNarrow-Bold",
                  subtitle_family="ArialNarrow-Italic",
                  caption_family="ArialNarrow",
@@ -178,8 +178,8 @@ theme_hrbrmstr_an <- function(...) {
 #' San Francisco theme
 #'
 #' @export
-theme_hrbrmstr_sf <- function(...) {
-  theme_hrbrmstr(base_family="SanFranciscoText-Light",
+theme_kylerove_sf <- function(...) {
+  theme_kylerove(base_family="SanFranciscoText-Light",
                  plot_title_family="SanFranciscoText-Bold",
                  subtitle_family="SanFranciscoText-LightItalic",
                  caption_family="SanFranciscoText-Light",
@@ -189,8 +189,8 @@ theme_hrbrmstr_sf <- function(...) {
 #' Skia theme
 #'
 #' @export
-theme_hrbrmstr_sk <- function(...) {
-  theme_hrbrmstr(base_family="Skia-Regular_Condensed",
+theme_kylerove_sk <- function(...) {
+  theme_kylerove(base_family="Skia-Regular_Condensed",
                  plot_title_family="Skia-Regular_Black",
                  subtitle_family="Skia-Regular_Light",
                  caption_family="Skia-Regular_Light-Condensed",
@@ -201,8 +201,8 @@ theme_hrbrmstr_sk <- function(...) {
 #' Exo 2 theme
 #'
 #' @export
-theme_hrbrmstr_ex <- function(...) {
-  theme_hrbrmstr(base_family="Exo2-Light",
+theme_kylerove_ex <- function(...) {
+  theme_kylerove(base_family="Exo2-Light",
                  plot_title_family="Exo2-Bold",
                  subtitle_family="Exo2-LightItalic",
                  caption_family="Exo2-Thin",
@@ -214,8 +214,8 @@ theme_hrbrmstr_ex <- function(...) {
 #' \url{http://www.impallari.com/cabin/}
 #'
 #' @export
-theme_hrbrmstr_cabin <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
-  theme_hrbrmstr(base_family="Cabin-Regular",
+theme_kylerove_cabin <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
+  theme_kylerove(base_family="Cabin-Regular",
                  plot_title_family="Cabin-Bold",
                  subtitle_family="Cabin-Italic",
                  subtitle_size = 12,
@@ -226,9 +226,9 @@ theme_hrbrmstr_cabin <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) 
 #' Noya theme
 #'
 #' @export
-theme_hrbrmstr_noya <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
+theme_kylerove_noya <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
 
-  theme_hrbrmstr(base_family = "NoyhSlim-Light",
+  theme_kylerove(base_family = "NoyhSlim-Light",
                  plot_title_family = "NoyhSlim-Bold",
                  subtitle_family = "NoyhSlim-LightItalic",
                  subtitle_size = 14,
@@ -239,9 +239,9 @@ theme_hrbrmstr_noya <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
 #' Tungsten theme
 #'
 #' @export
-theme_hrbrmstr_tungsten <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
+theme_kylerove_tungsten <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
 
-  theme_hrbrmstr(base_family = "Tungsten-Light",
+  theme_kylerove(base_family = "Tungsten-Light",
                  base_size = 14,
                  plot_title_family = "Tungsten-Semibold",
                  subtitle_family = "Tungsten-Light",
@@ -255,9 +255,9 @@ theme_hrbrmstr_tungsten <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ..
 #' Quattrocento theme
 #'
 #' @export
-theme_hrbrmstr_qc <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
+theme_kylerove_qc <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
 
-  theme_hrbrmstr(base_family = "QuattrocentoSans",
+  theme_kylerove(base_family = "QuattrocentoSans",
                  base_size = 14,
                  plot_title_family = "QuattrocentoSans-Bold",
                  subtitle_family = "QuattrocentoSans-Italic",
@@ -275,9 +275,9 @@ theme_hrbrmstr_qc <- function(grid = TRUE, axis = FALSE, ticks = FALSE, ...) {
 #' \url{http://myria.math.aegean.gr/kerkis/}
 #'
 #' @export
-theme_hrbrmstr_kerkis <- function(grid = TRUE, axis = FALSE, ticks = FALSE,...) {
+theme_kylerove_kerkis <- function(grid = TRUE, axis = FALSE, ticks = FALSE,...) {
 
-  theme_hrbrmstr(base_family = "KerkisSans",
+  theme_kylerove(base_family = "KerkisSans",
                  base_size = 12,
                  plot_title_family = "KerkisSans-Bold",
                  plot_title_margin = 8,
