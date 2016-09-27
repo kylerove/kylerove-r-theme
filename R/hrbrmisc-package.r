@@ -1,7 +1,7 @@
 #' Personal R pkg
-#' @name hrbrmisc
+#' @name kylerove-r-theme
 #' @docType package
-#' @author Bob Rudis (@@hrbrmstr)
+#' @author Kyle Rove (@@kylerove)
 #' @import ggplot2 gtable formatR
 #' @importFrom grid grid.draw grid.newpage gpar textGrob grobHeight
 NULL
