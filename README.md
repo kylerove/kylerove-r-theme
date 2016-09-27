@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-hrbrmisc is @hrbrmstr's personal R pkg
+kylerove-r-theme is @kylerove's personal R pkg based directly off of hrbrmstr/hrbrmisc
 
 ### Code of Conduct
 
