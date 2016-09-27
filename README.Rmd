@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-hrbrmisc is @hrbrmstr's personal R pkg
+kylerove-r-theme is @kylerove's personal R pkg based directly off of hrbrmstr/hrbrmisc
 
 ### Code of Conduct
 
